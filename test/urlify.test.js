@@ -1,6 +1,6 @@
 const urlify = require('../src/02.urlify');
 
-describe.only("urlify", () => {
+describe("urlify", () => {
 	it("BijalParekh", ()=> {
 		expect(urlify('BijalParekh')).toEqual('BijalParekh');
 	})

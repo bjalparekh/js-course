@@ -15,4 +15,13 @@ module.exports = {
 		throw "NotImplemented"
 	},
 	Node: Node,
+	print_list: (root) => {
+		let list = '';
+		let ptr = root;
+		while(ptr.next) {
+			list = `${list}${ptr.next.value}->`;
+			ptr = ptr.next;
+		}
+		return list;
+	},
 }

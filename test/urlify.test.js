@@ -1,3 +1,5 @@
+const expect = require('expect');
+
 const urlify = require('../src/02.urlify');
 
 describe("urlify", () => {
